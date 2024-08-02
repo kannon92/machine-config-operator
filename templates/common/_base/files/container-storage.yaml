@@ -19,6 +19,9 @@ contents:
     # Primary Read/Write location of container storage
     graphroot = "/var/lib/containers/storage"
 
+    # Primary location for images
+    imagestore = "/var/lib/images"
+
     [storage.options]
     # Storage options to be passed to underlying storage drivers
 
